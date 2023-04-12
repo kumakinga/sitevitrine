@@ -1,0 +1,36 @@
+<footer>
+    <h1>Plus d'Info</h1>
+        <div class="services">
+            <div class="service">
+                <h3>Nos services</h3>
+                <p>Prospection hydrogéologique <br>
+                   Forage et équipage du puits
+                   installation du stockage et Réseau de distribution<br>
+                   Entretien du puits<br>
+                   Consiels technique<br>
+                   Réseau d'irrigation agricole <br>
+                </p>
+        </div>
+        <div class="service">
+            <h3>Date et Heure</h3>
+                <p>
+                    <% date.forEach(date => { %>
+                        <p><%= date.createdAt%></p>    
+                    <% }) %>
+                </p>
+        </div>
+        <div class="service">
+            <h3>Logo</h3>
+            <p><img src="/images/Servicepvt.jpg" width="200" height="140" alt=""></p>
+        </div>
+    </div>
+    <p id="contact">
+        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+        Droits d'auteur &copy;
+        <script>document.write(new Date().getFullYear());</script> Tous droits réservés |
+        By: SimpleCode<i class="ti-heart" aria-hidden="true"></i>
+        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+    </p>
+</footer>
+</body>
+</html>
